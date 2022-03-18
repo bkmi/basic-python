@@ -1,3 +1,17 @@
+# direnv
+.envrc
+
+# conda
+env/
+
+# Generated versions
+basicpython/__version__.py
+
+# Hydra
+**/outputs/
+**/multirun/
+**/sbi-logs/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
